@@ -9,8 +9,8 @@ import java.util.concurrent.TimeUnit;
 @State(Scope.Benchmark)
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @BenchmarkMode(Mode.AverageTime)
-@Measurement(iterations = 2, time = 10, timeUnit = TimeUnit.NANOSECONDS)
-@Warmup(iterations = 2, time = 10, timeUnit = TimeUnit.NANOSECONDS)
+//@Measurement(iterations = 2, time = 10, timeUnit = TimeUnit.NANOSECONDS)
+//@Warmup(iterations = 2, time = 10, timeUnit = TimeUnit.NANOSECONDS)
 public class Benchmark {
 
     private final Service service = new Service();

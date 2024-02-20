@@ -1,0 +1,381 @@
+--- Execution profile ---
+Total samples       : 4115
+
+--- 19970000000 ns (48.53%), 1997 samples
+  [ 0] java.util.concurrent.atomic.AtomicLong.compareAndSet
+  [ 1] java.util.Random.next
+  [ 2] java.util.Random.nextBoolean
+  [ 3] com.panfutov.Service.doWithResult
+  [ 4] com.panfutov.Benchmark.jresult
+  [ 5] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 6] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 7] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 8] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 9] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [10] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [11] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [12] java.lang.reflect.Method.invoke
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [15] java.util.concurrent.FutureTask.run
+  [16] java.util.concurrent.Executors$RunnableAdapter.call
+  [17] java.util.concurrent.FutureTask.run
+  [18] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [19] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [20] java.lang.Thread.runWith
+  [21] java.lang.Thread.run
+
+--- 9060000000 ns (22.02%), 906 samples
+  [ 0] java.util.Random.next
+  [ 1] java.util.Random.nextBoolean
+  [ 2] com.panfutov.Service.doWithResult
+  [ 3] com.panfutov.Benchmark.jresult
+  [ 4] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 5] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 6] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 7] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 8] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 9] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [10] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [11] java.lang.reflect.Method.invoke
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.Executors$RunnableAdapter.call
+  [16] java.util.concurrent.FutureTask.run
+  [17] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [18] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [19] java.lang.Thread.runWith
+  [20] java.lang.Thread.run
+
+--- 3250000000 ns (7.90%), 325 samples
+  [ 0] com.panfutov.Service.doWithResult
+  [ 1] com.panfutov.Benchmark.jresult
+  [ 2] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 3] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 4] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 5] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 6] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 7] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 8] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 9] java.lang.reflect.Method.invoke
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.Executors$RunnableAdapter.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [16] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [17] java.lang.Thread.runWith
+  [18] java.lang.Thread.run
+
+--- 2460000000 ns (5.98%), 246 samples
+  [ 0] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 1] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 2] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 3] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 4] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 5] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 6] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 7] java.lang.reflect.Method.invoke
+  [ 8] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.Executors$RunnableAdapter.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [14] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [15] java.lang.Thread.runWith
+  [16] java.lang.Thread.run
+
+--- 1160000000 ns (2.82%), 116 samples
+  [ 0] com.panfutov.result.Result.isFailure
+  [ 1] com.panfutov.result.Result.ifFailure
+  [ 2] com.panfutov.Benchmark.jresult
+  [ 3] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 4] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 5] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 6] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 7] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 8] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 9] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [10] java.lang.reflect.Method.invoke
+  [11] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.Executors$RunnableAdapter.call
+  [15] java.util.concurrent.FutureTask.run
+  [16] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [17] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [18] java.lang.Thread.runWith
+  [19] java.lang.Thread.run
+
+--- 1080000000 ns (2.62%), 108 samples
+  [ 0] java.util.Random.next
+  [ 1] java.util.Random.nextBoolean
+  [ 2] com.panfutov.Service.doWithResult
+  [ 3] com.panfutov.Benchmark.jresult
+  [ 4] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 5] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 6] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 7] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 8] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 9] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [10] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [11] java.lang.reflect.Method.invoke
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.Executors$RunnableAdapter.call
+  [16] java.util.concurrent.FutureTask.run
+  [17] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [18] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [19] java.lang.Thread.runWith
+  [20] java.lang.Thread.run
+
+--- 1020000000 ns (2.48%), 102 samples
+  [ 0] com.panfutov.result.Result.isSuccess
+  [ 1] com.panfutov.result.Result.isFailure
+  [ 2] com.panfutov.result.Result.ifFailure
+  [ 3] com.panfutov.Benchmark.jresult
+  [ 4] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 5] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 6] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 7] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 8] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 9] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [10] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [11] java.lang.reflect.Method.invoke
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.Executors$RunnableAdapter.call
+  [16] java.util.concurrent.FutureTask.run
+  [17] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [18] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [19] java.lang.Thread.runWith
+  [20] java.lang.Thread.run
+
+--- 1010000000 ns (2.45%), 101 samples
+  [ 0] com.panfutov.Service.doWithResult
+  [ 1] com.panfutov.Benchmark.jresult
+  [ 2] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 3] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 4] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 5] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 6] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 7] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 8] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 9] java.lang.reflect.Method.invoke
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.Executors$RunnableAdapter.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [16] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [17] java.lang.Thread.runWith
+  [18] java.lang.Thread.run
+
+--- 580000000 ns (1.41%), 58 samples
+  [ 0] com.panfutov.Service.doWithResult
+  [ 1] com.panfutov.Benchmark.jresult
+  [ 2] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 3] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 4] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 5] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 6] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 7] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 8] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 9] java.lang.reflect.Method.invoke
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.Executors$RunnableAdapter.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [16] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [17] java.lang.Thread.runWith
+  [18] java.lang.Thread.run
+
+--- 520000000 ns (1.26%), 52 samples
+  [ 0] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 1] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 2] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 3] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 4] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 5] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 6] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 7] java.lang.reflect.Method.invoke
+  [ 8] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.Executors$RunnableAdapter.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [14] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [15] java.lang.Thread.runWith
+  [16] java.lang.Thread.run
+
+--- 450000000 ns (1.09%), 45 samples
+  [ 0] java.util.Random.next
+  [ 1] java.util.Random.nextBoolean
+  [ 2] com.panfutov.Service.doWithResult
+  [ 3] com.panfutov.Benchmark.jresult
+  [ 4] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 5] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 6] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 7] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 8] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 9] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [10] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [11] java.lang.reflect.Method.invoke
+  [12] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [13] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [14] java.util.concurrent.FutureTask.run
+  [15] java.util.concurrent.Executors$RunnableAdapter.call
+  [16] java.util.concurrent.FutureTask.run
+  [17] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [18] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [19] java.lang.Thread.runWith
+  [20] java.lang.Thread.run
+
+--- 440000000 ns (1.07%), 44 samples
+  [ 0] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 1] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 2] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 3] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 4] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 5] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 6] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 7] java.lang.reflect.Method.invoke
+  [ 8] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] java.util.concurrent.FutureTask.run
+  [11] java.util.concurrent.Executors$RunnableAdapter.call
+  [12] java.util.concurrent.FutureTask.run
+  [13] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [14] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [15] java.lang.Thread.runWith
+  [16] java.lang.Thread.run
+
+--- 80000000 ns (0.19%), 8 samples
+  [ 0] __psynch_cvwait
+  [ 1] PlatformMonitor::wait
+  [ 2] Monitor::wait_without_safepoint_check
+  [ 3] WatcherThread::sleep
+  [ 4] WatcherThread::run
+  [ 5] Thread::call_run
+  [ 6] thread_native_entry
+  [ 7] _pthread_start
+  [ 8] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] WatcherThread::sleep
+  [ 1] WatcherThread::run
+  [ 2] Thread::call_run
+  [ 3] thread_native_entry
+  [ 4] _pthread_start
+  [ 5] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] java.util.concurrent.ConcurrentHashMap.replaceNode
+  [ 1] java.util.concurrent.ConcurrentHashMap.remove
+  [ 2] org.openjdk.jmh.runner.BenchmarkHandler.getWorkerData
+  [ 3] org.openjdk.jmh.runner.BenchmarkHandler.access$300
+  [ 4] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 5] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [ 6] java.util.concurrent.FutureTask.run
+  [ 7] java.util.concurrent.Executors$RunnableAdapter.call
+  [ 8] java.util.concurrent.FutureTask.run
+  [ 9] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [10] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [11] java.lang.Thread.runWith
+  [12] java.lang.Thread.run
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] I2C/C2I adapters
+  [ 1] java.util.concurrent.locks.ReentrantLock$NonfairSync.tryAcquire
+  [ 2] java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire
+  [ 3] java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos
+  [ 4] java.util.concurrent.LinkedBlockingQueue.poll
+  [ 5] java.util.concurrent.ExecutorCompletionService.poll
+  [ 6] org.openjdk.jmh.runner.BenchmarkHandler.runIteration
+  [ 7] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [ 8] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [ 9] org.openjdk.jmh.runner.BaseRunner.doSingle
+  [10] org.openjdk.jmh.runner.BaseRunner.runBenchmarksForked
+  [11] org.openjdk.jmh.runner.ForkedRunner.run
+  [12] org.openjdk.jmh.runner.ForkedMain.main
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] com.panfutov.Benchmark.jresult
+  [ 1] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  [ 2] com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_AverageTime
+  [ 3] java.lang.invoke.DirectMethodHandle$Holder.invokeSpecial
+  [ 4] java.lang.invoke.LambdaForm$MH.0x000000012502e400.invoke
+  [ 5] java.lang.invoke.LambdaForm$MH.0x0000000125002800.invokeExact_MT
+  [ 6] jdk.internal.reflect.DirectMethodHandleAccessor.invokeImpl
+  [ 7] jdk.internal.reflect.DirectMethodHandleAccessor.invoke
+  [ 8] java.lang.reflect.Method.invoke
+  [ 9] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [10] org.openjdk.jmh.runner.BenchmarkHandler$BenchmarkTask.call
+  [11] java.util.concurrent.FutureTask.run
+  [12] java.util.concurrent.Executors$RunnableAdapter.call
+  [13] java.util.concurrent.FutureTask.run
+  [14] java.util.concurrent.ThreadPoolExecutor.runWorker
+  [15] java.util.concurrent.ThreadPoolExecutor$Worker.run
+  [16] java.lang.Thread.runWith
+  [17] java.lang.Thread.run
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] java.util.concurrent.locks.LockSupport.park
+  [ 1] java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire
+  [ 2] java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireSharedInterruptibly
+  [ 3] java.util.concurrent.CountDownLatch.await
+  [ 4] org.openjdk.jmh.runner.InfraControlL2.awaitWarmupReady
+  [ 5] org.openjdk.jmh.runner.InfraControl.awaitWarmupReady
+  [ 6] org.openjdk.jmh.runner.BenchmarkHandler.runIteration
+  [ 7] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [ 8] org.openjdk.jmh.runner.BaseRunner.runBenchmark
+  [ 9] org.openjdk.jmh.runner.BaseRunner.doSingle
+  [10] org.openjdk.jmh.runner.BaseRunner.runBenchmarksForked
+  [11] org.openjdk.jmh.runner.ForkedRunner.run
+  [12] org.openjdk.jmh.runner.ForkedMain.main
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] VMError::is_error_reported
+  [ 1] WatcherThread::run
+  [ 2] Thread::call_run
+  [ 3] thread_native_entry
+  [ 4] _pthread_start
+  [ 5] thread_start
+
+--- 10000000 ns (0.02%), 1 sample
+  [ 0] StubQueue::remove_all
+  [ 1] ParallelCleanupTask::work
+  [ 2] SafepointSynchronize::do_cleanup_tasks
+  [ 3] SafepointSynchronize::begin
+  [ 4] VMThread::inner_execute
+  [ 5] VMThread::run
+  [ 6] Thread::call_run
+  [ 7] thread_native_entry
+  [ 8] _pthread_start
+  [ 9] thread_start
+
+          ns  percent  samples  top
+  ----------  -------  -------  ---
+ 19970000000   48.53%     1997  java.util.concurrent.atomic.AtomicLong.compareAndSet
+ 10590000000   25.74%     1059  java.util.Random.next
+  4840000000   11.76%      484  com.panfutov.Service.doWithResult
+  3420000000    8.31%      342  com.panfutov.jmh_generated.Benchmark_jresult_jmhTest.jresult_avgt_jmhStub
+  1160000000    2.82%      116  com.panfutov.result.Result.isFailure
+  1020000000    2.48%      102  com.panfutov.result.Result.isSuccess
+    80000000    0.19%        8  __psynch_cvwait
+    10000000    0.02%        1  I2C/C2I adapters
+    10000000    0.02%        1  com.panfutov.Benchmark.jresult
+    10000000    0.02%        1  WatcherThread::sleep
+    10000000    0.02%        1  VMError::is_error_reported
+    10000000    0.02%        1  java.util.concurrent.ConcurrentHashMap.replaceNode
+    10000000    0.02%        1  StubQueue::remove_all
+    10000000    0.02%        1  java.util.concurrent.locks.LockSupport.park
