@@ -1,0 +1,188 @@
+/Users/artyom/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/bin/java -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49933:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath /Users/artyom/git/exceptions-vs-jresult-benchmark/exceptions-vs-jresult-benchmark/untitled/target/classes:/Users/artyom/.m2/repository/org/openjdk/jmh/jmh-core/1.37/jmh-core-1.37.jar:/Users/artyom/.m2/repository/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/Users/artyom/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/artyom/.m2/repository/org/openjdk/jmh/jmh-generator-annprocess/1.37/jmh-generator-annprocess-1.37.jar:/Users/artyom/.m2/repository/com/panfutov/jresult/0.0.1/jresult-0.0.1.jar com.panfutov.Benchmark
+# JMH version: 1.37
+# VM version: JDK 21.0.1, OpenJDK 64-Bit Server VM, 21.0.1+12-29
+# VM invoker: /Users/artyom/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49933:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.panfutov.Benchmark.exceptions
+
+# Run progress: 0.00% complete, ETA 00:16:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 1442.878 ns/op
+# Warmup Iteration   2: 1385.535 ns/op
+# Warmup Iteration   3: 1203.161 ns/op
+# Warmup Iteration   4: 1213.703 ns/op
+# Warmup Iteration   5: 1188.183 ns/op
+Iteration   1: 1220.449 ns/op
+Iteration   2: 1197.108 ns/op
+Iteration   3: 1197.122 ns/op
+Iteration   4: 1207.365 ns/op
+Iteration   5: 1200.547 ns/op
+
+# Run progress: 10.00% complete, ETA 00:15:07
+# Fork: 2 of 5
+# Warmup Iteration   1: 1196.035 ns/op
+# Warmup Iteration   2: 1189.683 ns/op
+# Warmup Iteration   3: 1169.908 ns/op
+# Warmup Iteration   4: 1175.327 ns/op
+# Warmup Iteration   5: 1187.566 ns/op
+Iteration   1: 1175.854 ns/op
+Iteration   2: 1188.849 ns/op
+Iteration   3: 1177.007 ns/op
+Iteration   4: 1186.866 ns/op
+Iteration   5: 1177.814 ns/op
+
+# Run progress: 20.00% complete, ETA 00:13:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 1202.092 ns/op
+# Warmup Iteration   2: 1233.282 ns/op
+# Warmup Iteration   3: 1196.092 ns/op
+# Warmup Iteration   4: 1174.777 ns/op
+# Warmup Iteration   5: 1188.437 ns/op
+Iteration   1: 1191.952 ns/op
+Iteration   2: 1192.183 ns/op
+Iteration   3: 1176.947 ns/op
+Iteration   4: 1194.102 ns/op
+Iteration   5: 1178.158 ns/op
+
+# Run progress: 30.00% complete, ETA 00:11:45
+# Fork: 4 of 5
+# Warmup Iteration   1: 1203.422 ns/op
+# Warmup Iteration   2: 1333.895 ns/op
+# Warmup Iteration   3: 1224.995 ns/op
+# Warmup Iteration   4: 1223.447 ns/op
+# Warmup Iteration   5: 1211.848 ns/op
+Iteration   1: 1231.403 ns/op
+Iteration   2: 1236.323 ns/op
+Iteration   3: 1215.249 ns/op
+Iteration   4: 1232.390 ns/op
+Iteration   5: 1232.165 ns/op
+
+# Run progress: 40.00% complete, ETA 00:10:04
+# Fork: 5 of 5
+# Warmup Iteration   1: 1170.179 ns/op
+# Warmup Iteration   2: 1167.539 ns/op
+# Warmup Iteration   3: 1175.820 ns/op
+# Warmup Iteration   4: 1156.459 ns/op
+# Warmup Iteration   5: 1177.003 ns/op
+Iteration   1: 1161.758 ns/op
+Iteration   2: 1176.742 ns/op
+Iteration   3: 1168.361 ns/op
+Iteration   4: 1166.605 ns/op
+Iteration   5: 1178.644 ns/op
+
+
+Result "com.panfutov.Benchmark.exceptions":
+  1194.478 ±(99.9%) 16.746 ns/op [Average]
+  (min, avg, max) = (1161.758, 1194.478, 1236.323), stdev = 22.356
+  CI (99.9%): [1177.732, 1211.225] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.1, OpenJDK 64-Bit Server VM, 21.0.1+12-29
+# VM invoker: /Users/artyom/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/bin/java
+# VM options: -javaagent:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar=49933:/Applications/IntelliJ IDEA CE.app/Contents/bin -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.panfutov.Benchmark.jresult
+
+# Run progress: 50.00% complete, ETA 00:08:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 0.529 ns/op
+# Warmup Iteration   2: 0.612 ns/op
+# Warmup Iteration   3: 0.617 ns/op
+# Warmup Iteration   4: 0.748 ns/op
+# Warmup Iteration   5: 0.660 ns/op
+Iteration   1: 0.639 ns/op
+Iteration   2: 0.635 ns/op
+Iteration   3: 0.642 ns/op
+Iteration   4: 0.638 ns/op
+Iteration   5: 0.648 ns/op
+
+# Run progress: 60.00% complete, ETA 00:06:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 0.618 ns/op
+# Warmup Iteration   2: 0.643 ns/op
+# Warmup Iteration   3: 0.621 ns/op
+# Warmup Iteration   4: 0.579 ns/op
+# Warmup Iteration   5: 0.672 ns/op
+Iteration   1: 0.664 ns/op
+Iteration   2: 0.563 ns/op
+Iteration   3: 0.601 ns/op
+Iteration   4: 0.579 ns/op
+Iteration   5: 0.693 ns/op
+
+# Run progress: 70.00% complete, ETA 00:05:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 0.613 ns/op
+# Warmup Iteration   2: 0.517 ns/op
+# Warmup Iteration   3: 0.521 ns/op
+# Warmup Iteration   4: 0.556 ns/op
+# Warmup Iteration   5: 0.533 ns/op
+Iteration   1: 0.528 ns/op
+Iteration   2: 0.513 ns/op
+Iteration   3: 0.516 ns/op
+Iteration   4: 0.512 ns/op
+Iteration   5: 0.518 ns/op
+
+# Run progress: 80.00% complete, ETA 00:03:21
+# Fork: 4 of 5
+# Warmup Iteration   1: 0.519 ns/op
+# Warmup Iteration   2: 0.563 ns/op
+# Warmup Iteration   3: 0.535 ns/op
+# Warmup Iteration   4: 0.515 ns/op
+# Warmup Iteration   5: 0.504 ns/op
+Iteration   1: 0.508 ns/op
+Iteration   2: 0.508 ns/op
+Iteration   3: 0.500 ns/op
+Iteration   4: 0.522 ns/op
+Iteration   5: 0.507 ns/op
+
+# Run progress: 90.00% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 0.505 ns/op
+# Warmup Iteration   2: 0.533 ns/op
+# Warmup Iteration   3: 0.522 ns/op
+# Warmup Iteration   4: 0.511 ns/op
+# Warmup Iteration   5: 0.511 ns/op
+Iteration   1: 0.519 ns/op
+Iteration   2: 0.508 ns/op
+Iteration   3: 0.507 ns/op
+Iteration   4: 0.504 ns/op
+Iteration   5: 0.499 ns/op
+
+
+Result "com.panfutov.Benchmark.jresult":
+  0.559 ±(99.9%) 0.048 ns/op [Average]
+  (min, avg, max) = (0.499, 0.559, 0.693), stdev = 0.064
+  CI (99.9%): [0.511, 0.607] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:16:47
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark             Mode  Cnt     Score    Error  Units
+Benchmark.exceptions  avgt   25  1194.478 ± 16.746  ns/op
+Benchmark.jresult     avgt   25     0.559 ±  0.048  ns/op
+
+Process finished with exit code 0

@@ -14,15 +14,10 @@ public class Service {
     }
 
     public void doWithException() {
-        if (rand.nextBoolean()) {
-            throw new BusinessException("Failed");
-        }
+        throw new BusinessException("Failed");
     }
 
     public Result<Void> doWithResult() {
-        if (rand.nextBoolean()) {
-            Result.failure("Failed");
-        }
-        return Result.successVoid();
+        return Result.failure("Failed");
     }
 }
