@@ -1,4 +1,4 @@
-# Exceptions vs JResult                               j
+# Exceptions vs JResult                               
 The following repository contains a benchmark comparing the performance of two approaches for error handling:
 * Exceptions
 * Operation Result Pattern implemented in JResult library.
